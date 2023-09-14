@@ -1,0 +1,53 @@
+
+body{
+    margin: 0%;
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(4, 3, 30)  ;
+}
+h1{
+    margin-top: 0%;
+    color: whitesmoke;
+    
+}
+header{
+    font-size: larger;
+    
+    font-weight: bold;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(2, 2, 9);
+}
+.notepad{
+    display: flex;
+    margin: 0 auto;
+    resize: none;
+}
+.notepad    ::placeholder{
+    font-size: 20px;
+}
+.m{
+    display: flex;
+   
+}
+.save{
+    /* box-sizing: 100px; */
+    background-color: aqua;
+    padding: 10px 50px ;
+    margin-left: 41%;
+    display: block;
+}
+.clear{
+    background-color: aqua;
+    padding: 10px 50px;
+    display: block;
+    margin-left: 0;
+}
+.save:hover{
+    cursor: pointer;
+}
+.clear:hover{
+    box-shadow: 10px;
+    cursor: pointer;
+}
